@@ -3,41 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoSphere | Sustentabilidade Integral</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EcoGuide - Descarte Consciente</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Estilo Frutiger Aero */
+        :root {
+            --primary: #00BFA5;
+            --secondary: #4CAF50;
+            --gradient: linear-gradient(135deg, #00BFA5 0%, #4CAF50 100%);
+            --glass: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: var(--gradient);
+            color: #fff;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .logo {
+            width: 150px;
+            filter: drop-shadow(0 0 10px rgba(0,0,0,0.2));
+        }
+
+        .search-bar {
+            background: var(--glass);
+            padding: 1.5rem;
+            border-radius: 25px;
+            margin: 2rem 0;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 1rem;
+            border: none;
+            border-radius: 15px;
+            background: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .category-card {
+            background: var(--glass);
+            padding: 2rem;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        .water-effect {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .water-effect::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transform: rotate(45deg);
+            animation: waterFlow 4s infinite linear;
+        }
+
+        @keyframes waterFlow {
+            0% { transform: translateX(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) rotate(45deg); }
+        }
+    </style>
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="glow">ECO<span>SPHERE</span></h1>
-            <p>Conectando Ambiente, Sociedade e Economia</p>
-            <div class="sphere-container">
-                <div class="hover-sphere"></div>
+    <div class="container">
+        <header class="hero water-effect">
+            <img src="eco-logo.png" alt="EcoGuide" class="logo">
+            <h1>Descarte Consciente Inteligente</h1>
+            <p>Encontre o destino correto para cada tipo de resíduo</p>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Digite o nome do resíduo...">
+                <button><i class="fas fa-search"></i></button>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <nav class="aero-nav">
-        <ul>
-            <li><a href="#ambiental"><i class="fas fa-leaf"></i> Ambiental</a></li>
-            <li><a href="#social"><i class="fas fa-users"></i> Social</a></li>
-            <li><a href="#economica"><i class="fas fa-chart-line"></i> Econômica</a></li>
-        </ul>
-    </nav>
+        <section class="categories">
+            <div class="category-card">
+                <i class="fas fa-leaf icon"></i>
+                <h3>Orgânicos</h3>
+                <p>Descarte de alimentos e materiais biodegradáveis</p>
+            </div>
+            
+            <div class="category-card">
+                <i class="fas fa-recycle icon"></i>
+                <h3>Recicláveis</h3>
+                <p>Plástico, vidro, metal e papel</p>
+            </div>
 
-    <main>
-        <section id="ambiental" class="card aero-card">
-            <!-- Conteúdo Ambiental -->
+            <div class="category-card">
+                <i class="fas fa-biohazard icon"></i>
+                <h3>Perigosos</h3>
+                <p>Produtos químicos e tóxicos</p>
+            </div>
         </section>
+    </div>
 
-        <section id="social" class="card aero-card">
-            <!-- Conteúdo Social -->
-        </section>
+    <script>
+        // Funcionalidade básica de busca
+        document.querySelector('input[type="text"]').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            // Adicionar lógica de busca aqui
+        });
 
-        <section id="economica" class="card aero-card">
-            <!-- Conteúdo Econômico -->
-        </section>
-    </main>
+        // Animações interativas
+        document.querySelectorAll('.category-card').forEach(card => {
+            card.addEventListener('mouseover', () => {
+                card.style.background = 'rgba(255,255,255,0.2)';
+            });
+            
+            card.addEventListener('mouseout', () => {
+                card.style.background = 'var(--glass)';
+            });
+        });
+    </script>
 </body>
 </html>
