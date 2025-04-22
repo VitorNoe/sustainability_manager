@@ -11,8 +11,7 @@
             "Não misturar com outros resíduos",
             "Entregar em postos autorizados"
           ]
-        },
-        "infografico": "infografico-pilhas.png"
+        }
       },
       {
         "nome": "Garrafa PET",
@@ -25,8 +24,7 @@
             "Remover rótulos e tampas",
             "Compactar antes de descartar"
           ]
-        },
-        "infografico": "infografico-pet.png"
+        }
       },
       {
         "nome": "Restos de alimentos",
@@ -39,8 +37,7 @@
             "Armazenar em recipiente fechado",
             "Utilizar para compostagem quando possível"
           ]
-        },
-        "infografico": "infografico-alimentos.png"
+        }
       },
       {
         "nome": "Papelão",
@@ -53,8 +50,7 @@
             "Remover fitas adesivas",
             "Separar por tipo de papel"
           ]
-        },
-        "infografico": "infografico-papelao.png"
+        }
       },
       {
         "nome": "Eletrônicos",
@@ -67,8 +63,7 @@
             "Separar baterias quando possível",
             "Entregar em centros de reciclagem"
           ]
-        },
-        "infografico": "infografico-eletronicos.png"
+        }
       },
       {
         "nome": "Óleo de cozinha",
@@ -81,8 +76,7 @@
             "Coletar em garrafa PET",
             "Entregar em postos autorizados"
           ]
-        },
-        "infografico": "infografico-oleo.png"
+        }
       },
       {
         "nome": "Vidro quebrado",
@@ -95,8 +89,7 @@
             "Identificar como 'vidro quebrado'",
             "Separar por cor quando possível"
           ]
-        },
-        "infografico": "infografico-vidro.png"
+        }
       },
       {
         "nome": "Medicamentos vencidos",
@@ -109,8 +102,7 @@
             "Não descartar no vaso sanitário",
             "Entregar em postos de coleta"
           ]
-        },
-        "infografico": "infografico-medicamentos.png"
+        }
       },
       {
         "nome": "Podas de jardim",
@@ -123,8 +115,7 @@
             "Triturar quando possível",
             "Utilizar como mulch ou compostagem"
           ]
-        },
-        "infografico": "infografico-podas.png"
+        }
       },
       {
         "nome": "Embalagens metalizadas",
@@ -137,8 +128,7 @@
             "Compactar para reduzir volume",
             "Separar por tipo de material"
           ]
-        },
-        "infografico": "infografico-metalizado.png"
+        }
       },
       {
         "nome": "Cascas de frutas",
@@ -151,8 +141,7 @@
             "Triturar quando necessário",
             "Misturar com material seco na composteira"
           ]
-        },
-        "infografico": "infografico-cascas-frutas.png"
+        }
       },
       {
         "nome": "Borras de café",
@@ -165,8 +154,7 @@
             "Misturar com serragem ou folhas secas",
             "Aplicar diretamente no solo como fertilizante"
           ]
-        },
-        "infografico": "infografico-borra-cafe.png"
+        }
       },
       {
         "nome": "PET Tipo 1",
@@ -179,8 +167,7 @@
             "Esvaziar e enxaguar",
             "Compactar antes do descarte"
           ]
-        },
-        "infografico": "infografico-pet1.png"
+        }
       },
       {
         "nome": "Papel Kraft",
@@ -193,8 +180,7 @@
             "Descontaminar de resíduos orgânicos",
             "Separar por tipo de fibra"
           ]
-        },
-        "infografico": "infografico-papel-kraft.png"
+        }
       },
       {
         "nome": "Lâmpadas fluorescentes",
@@ -207,8 +193,7 @@
             "Identificar como 'resíduo perigoso'",
             "Transportar intactas para coleta"
           ]
-        },
-        "infografico": "infografico-lampadas-fluorescentes.png"
+        }
       },
       {
         "nome": "Resíduos de amianto",
@@ -221,8 +206,7 @@
             "Embalar em dupla camada de plástico",
             "Contratar empresa especializada"
           ]
-        },
-        "infografico": "infografico-amianto.png"
+        }
       },
       {
         "nome": "Resíduos radioativos",
@@ -235,8 +219,7 @@
             "Monitoramento constante",
             "Manuseio exclusivo por equipes especializadas"
           ]
-        },
-        "infografico": "infografico-radioativos.png"
+        }
       },
       {
         "nome": "Órgãos biológicos",
@@ -249,8 +232,7 @@
             "Refrigeração temporária",
             "Transporte em veículos selados"
           ]
-        },
-        "infografico": "infografico-organos.png"
+        }
       }
     ]
   }
