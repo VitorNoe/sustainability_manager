@@ -1,0 +1,32 @@
+{
+    "residuos": [
+      {
+        "nome": "Pilhas",
+        "categoria": "Perigosos",
+        "descricao": "Contêm metais pesados e substâncias tóxicas",
+        "descarte": {
+          "local": "Pontos de coleta em supermercados e lojas de eletrônicos",
+          "passos": [
+            "Armazenar em recipiente não condutivo",
+            "Não misturar com outros resíduos",
+            "Entregar em postos autorizados"
+          ]
+        },
+        "infografico": "infografico-pilhas.png"
+      },
+      {
+        "nome": "Garrafa PET",
+        "categoria": "Recicláveis",
+        "descricao": "Plástico reciclável tipo 1",
+        "descarte": {
+          "local": "Lixeiras seletivas (plástico)",
+          "passos": [
+            "Esvaziar e limpar a garrafa",
+            "Remover rótulos e tampas",
+            "Compactar antes de descartar"
+          ]
+        },
+        "infografico": "infografico-pet.png"
+      }
+    ]
+  }
