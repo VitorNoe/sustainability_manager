@@ -9,7 +9,7 @@
         /* Estilo Frutiger Aero */
         :root {
             --primary: #00BFA5;
-            --secondary: #4CAF50;
+            --secondary: #2b922f;
             --gradient: linear-gradient(135deg, #00BFA5 0%, #4CAF50 100%);
             --glass: rgba(255, 255, 255, 0.1);
         }
@@ -114,7 +114,7 @@
         }
     
         .result-item:hover {
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.452);
         }
     
         .modal-overlay {
@@ -189,7 +189,7 @@
         </header>
 
         <section class="search-results"></section>
-        
+
         <section class="categories">
             <div class="category-card">
                 <i class="fas fa-leaf icon"></i>
@@ -209,6 +209,13 @@
                 <p>Produtos químicos e tóxicos</p>
             </div>
         </section>
+    </div>
+    
+    <div class="modal-overlay">
+        <div class="modal">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <div class="modal-content"></div>
+        </div>
     </div>
 
     <script>
@@ -306,11 +313,5 @@
             });
         });
     </script>
-    <div class="modal-overlay">
-        <div class="modal">
-            <button class="close-modal"><i class="fas fa-times"></i></button>
-            <div class="modal-content"></div>
-        </div>
-    </div>
 </body>
 </html>
