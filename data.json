@@ -27,6 +27,230 @@
           ]
         },
         "infografico": "infografico-pet.png"
+      },
+      {
+        "nome": "Restos de alimentos",
+        "categoria": "Orgânicos",
+        "descricao": "Sobras de comida e resíduos vegetais",
+        "descarte": {
+          "local": "Composteiras domésticas ou coleta de orgânicos",
+          "passos": [
+            "Separar de outros resíduos",
+            "Armazenar em recipiente fechado",
+            "Utilizar para compostagem quando possível"
+          ]
+        },
+        "infografico": "infografico-alimentos.png"
+      },
+      {
+        "nome": "Papelão",
+        "categoria": "Recicláveis",
+        "descricao": "Embalagens de papelão limpas",
+        "descarte": {
+          "local": "Lixeiras seletivas (papel)",
+          "passos": [
+            "Desmontar caixas",
+            "Remover fitas adesivas",
+            "Separar por tipo de papel"
+          ]
+        },
+        "infografico": "infografico-papelao.png"
+      },
+      {
+        "nome": "Eletrônicos",
+        "categoria": "Perigosos",
+        "descricao": "Equipamentos com componentes tóxicos",
+        "descarte": {
+          "local": "Pontos de coleta especializados",
+          "passos": [
+            "Desligar da fonte de energia",
+            "Separar baterias quando possível",
+            "Entregar em centros de reciclagem"
+          ]
+        },
+        "infografico": "infografico-eletronicos.png"
+      },
+      {
+        "nome": "Óleo de cozinha",
+        "categoria": "Perigosos",
+        "descricao": "Óleo vegetal usado na alimentação",
+        "descarte": {
+          "local": "Pontos de coleta em supermercados",
+          "passos": [
+            "Esfriar completamente",
+            "Coletar em garrafa PET",
+            "Entregar em postos autorizados"
+          ]
+        },
+        "infografico": "infografico-oleo.png"
+      },
+      {
+        "nome": "Vidro quebrado",
+        "categoria": "Recicláveis",
+        "descricao": "Cacos de vidro de embalagens",
+        "descarte": {
+          "local": "Contentores específicos para vidro",
+          "passos": [
+            "Embrulhar em papel grosso",
+            "Identificar como 'vidro quebrado'",
+            "Separar por cor quando possível"
+          ]
+        },
+        "infografico": "infografico-vidro.png"
+      },
+      {
+        "nome": "Medicamentos vencidos",
+        "categoria": "Perigosos",
+        "descricao": "Remédios fora do prazo de validade",
+        "descarte": {
+          "local": "Farmácias e unidades de saúde",
+          "passos": [
+            "Manter na embalagem original",
+            "Não descartar no vaso sanitário",
+            "Entregar em postos de coleta"
+          ]
+        },
+        "infografico": "infografico-medicamentos.png"
+      },
+      {
+        "nome": "Podas de jardim",
+        "categoria": "Orgânicos",
+        "descricao": "Restos vegetais de jardinagem",
+        "descarte": {
+          "local": "Compostagem ou coleta especial",
+          "passos": [
+            "Separar de outros resíduos",
+            "Triturar quando possível",
+            "Utilizar como mulch ou compostagem"
+          ]
+        },
+        "infografico": "infografico-podas.png"
+      },
+      {
+        "nome": "Embalagens metalizadas",
+        "categoria": "Recicláveis",
+        "descricao": "Pacotes de salgadinhos e similares",
+        "descarte": {
+          "local": "Lixeiras seletivas (plástico)",
+          "passos": [
+            "Limpar resíduos de alimento",
+            "Compactar para reduzir volume",
+            "Separar por tipo de material"
+          ]
+        },
+        "infografico": "infografico-metalizado.png"
+      },
+      {
+        "nome": "Cascas de frutas",
+        "categoria": "Orgânicos",
+        "descricao": "Resíduos de frutas não cítricas para compostagem",
+        "descarte": {
+          "local": "Composteiras domésticas ou usinas de biogás",
+          "passos": [
+            "Separar de materiais não biodegradáveis",
+            "Triturar quando necessário",
+            "Misturar com material seco na composteira"
+          ]
+        },
+        "infografico": "infografico-cascas-frutas.png"
+      },
+      {
+        "nome": "Borras de café",
+        "categoria": "Orgânicos",
+        "descricao": "Resíduos de café com alto teor de nitrogênio",
+        "descarte": {
+          "local": "Compostagem ou hortas domésticas",
+          "passos": [
+            "Deixar esfriar completamente",
+            "Misturar com serragem ou folhas secas",
+            "Aplicar diretamente no solo como fertilizante"
+          ]
+        },
+        "infografico": "infografico-borra-cafe.png"
+      },
+      {
+        "nome": "PET Tipo 1",
+        "categoria": "Recicláveis",
+        "descricao": "Politereftalato de etileno - garrafas de refrigerante",
+        "descarte": {
+          "local": "Cooperativas de reciclagem",
+          "passos": [
+            "Remover rótulos e tampas",
+            "Esvaziar e enxaguar",
+            "Compactar antes do descarte"
+          ]
+        },
+        "infografico": "infografico-pet1.png"
+      },
+      {
+        "nome": "Papel Kraft",
+        "categoria": "Recicláveis",
+        "descricao": "Papel de embalagem não parafinado",
+        "descarte": {
+          "local": "Pontos de coleta seletiva",
+          "passos": [
+            "Remover fitas adesivas",
+            "Descontaminar de resíduos orgânicos",
+            "Separar por tipo de fibra"
+          ]
+        },
+        "infografico": "infografico-papel-kraft.png"
+      },
+      {
+        "nome": "Lâmpadas fluorescentes",
+        "categoria": "Perigosos",
+        "descricao": "Contêm mercúrio metálico volátil",
+        "descarte": {
+          "local": "Ecopontos especializados",
+          "passos": [
+            "Embalar individualmente em plástico bolha",
+            "Identificar como 'resíduo perigoso'",
+            "Transportar intactas para coleta"
+          ]
+        },
+        "infografico": "infografico-lampadas-fluorescentes.png"
+      },
+      {
+        "nome": "Resíduos de amianto",
+        "categoria": "Perigosos",
+        "descricao": "Fibras cancerígenas de construção civil",
+        "descarte": {
+          "local": "Aterros industriais especiais",
+          "passos": [
+            "Umidecer para evitar dispersão aérea",
+            "Embalar em dupla camada de plástico",
+            "Contratar empresa especializada"
+          ]
+        },
+        "infografico": "infografico-amianto.png"
+      },
+      {
+        "nome": "Resíduos radioativos",
+        "categoria": "Perigosos",
+        "descricao": "Materiais com emissão ionizante (Classe IV)",
+        "descarte": {
+          "local": "Depósitos geológicos profundos",
+          "passos": [
+            "Isolamento em contêineres de chumbo",
+            "Monitoramento constante",
+            "Manuseio exclusivo por equipes especializadas"
+          ]
+        },
+        "infografico": "infografico-radioativos.png"
+      },
+      {
+        "nome": "Órgãos biológicos",
+        "categoria": "Perigosos",
+        "descricao": "Resíduos hospitalares classe A1",
+        "descarte": {
+          "local": "Incineração hospitalar",
+          "passos": [
+            "Acondicionamento em sacos vermelhos",
+            "Refrigeração temporária",
+            "Transporte em veículos selados"
+          ]
+        },
+        "infografico": "infografico-organos.png"
       }
     ]
   }
